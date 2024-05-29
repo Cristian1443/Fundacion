@@ -1,0 +1,132 @@
+.menu {
+    width: 100%;
+    height: 800px;
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(156, 100%, 14%, 0.241), hsla(156, 98%, 49%, 0.241), hsla(156, 98%, 49%, 0.241), hsla(156, 100%, 14%, 0.241)), url(../assets/img/fundacion.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(156, 100%, 14%, 0.241), hsla(156, 98%, 49%, 0.241), hsla(156, 98%, 49%, 0.241), hsla(156, 100%, 14%, 0.241)), url(../assets/img/fundacion.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.wave{
+    position: fixed;
+    bottom: ;
+    width: 100%;
+    
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 53px;
+    height: 53px;
+    line-height: 53px;
+    bottom: 25px;
+    right: 25px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.navbar-nav a {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.abautservices {
+    background: hsla(208, 77%, 33%, 0.747);
+    padding-bottom: 30px;
+}
+
+.serviciocont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicioind {
+    width: 28%;
+    text-align: center;
+}
+
+.servicioind img {
+    width: 70%;
+}
+
+.servicioind h3 {
+    margin: 5px 0;
+}
+
+.servicioind p {
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* footer */
+
+footer {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedorfooter {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+
+}
+
+.contenedorfoo {
+    text-align: center;
+
+}
+
+.contenedorfoo h4 {
+    color: #fff;
+    border-bottom: 3px solid #135895;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+.contenedorfoo p {
+    color: #ccc;
+
+
+}
+
+.titulofinal {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #ccc;
+}
+
+.redes {
+    text-align: center;
+    margin: auto;
+    padding: 0 10px 10px 10px;
+    border-bottom: 2px solid #135895;
+}
+
+.redes img {
+    width: 3%;
+    text-align: center;
+
+    padding-top: 5px;
+
+}
+
+.custom-size {
+    width: 50%;
+    margin: 0 auto;
+}
